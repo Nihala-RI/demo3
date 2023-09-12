@@ -1,1 +1,31 @@
-hello nihala
+
+G:\My Drive\demo>git config --global user.name "nihalari"
+
+G:\My Drive\demo>git config --global user.email "nihalari2001@gmail.com"
+
+G:\My Drive\demo>git init
+Initialized empty Git repository in G:/My Drive/demo/.git/
+
+G:\My Drive\demo>git add .
+
+G:\My Drive\demo>git remote add origin "https://github.com/Nihala-RI/demo3.git"
+
+G:\My Drive\demo>git commit -m "textfiles"
+[master (root-commit) 3888c88] textfiles
+ 2 files changed, 1 insertion(+)
+ create mode 100644 git_commands.txt
+ create mode 100644 welcome.txt
+
+G:\My Drive\demo>git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 270 bytes | 27.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Nihala-RI/demo3.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+G:\My Drive\demo>
