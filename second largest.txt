@@ -1,0 +1,9 @@
+def second_largest(numbers):
+  second_largest=float('-inf')
+  largest=float('-inf')
+  for i in numbers:
+    if i>largest:
+      second_largest,largest=largest,i
+    elif i>second_largest:
+       second_largest=i
+  return second_largest

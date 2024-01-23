@@ -1,0 +1,12 @@
+def count_frequency(string):
+  frequency={}
+  string=string.lower().replace(" ",'')
+  for i in string:
+    if i in frequency:
+      frequency[i]+=1
+    else:
+      frequency[i]=1
+  return(frequency)
+
+def check_anagram(s1,s2):
+  return(count_frequency(s1)==count_frequency(s2))

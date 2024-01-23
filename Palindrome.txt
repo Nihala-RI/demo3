@@ -1,0 +1,7 @@
+def is_palindrom(string):
+  string=string.lower().replace(" ",'')
+  reversed_string=string[::-1]
+  if string==reversed_string:
+     print(f'{string} is a plaindrom')
+  else:
+    print(f'{string} is not a palindrom')

@@ -1,0 +1,7 @@
+def common_elements(list1,list2):
+  common_elements=[]
+  for i in list1:
+    if i in list2:
+      if i not in common_elements:
+        common_elements.append(i)
+  return common_elements

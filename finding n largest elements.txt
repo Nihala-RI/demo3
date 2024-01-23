@@ -1,0 +1,6 @@
+def n_largest_elements(list,n):
+  list=sorted(list,reverse=True)
+  largest_elements=list[:n]
+  return largest_elements
+list=[30,10,45,60,20,70,75,35,90,85,100,65]
+n_largest_elements(list,5)
